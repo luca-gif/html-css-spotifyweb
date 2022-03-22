@@ -158,6 +158,20 @@ footer .footer-center .bar{
   padding: 3px 6px;
 }
 
+footer .footer-center .section-down{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+footer .section-down .time-dx,.time-sx{
+  padding: 0 30px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
 /* FOOTER RIGHT */
 
 footer .footer-right{
