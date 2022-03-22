@@ -41,7 +41,7 @@ aside .aside-top{
   padding: 20px 0;
 }
 
-aside ul li:first-child a{
+aside .aside-top ul li:first-child a{
   color: white;
 }
 
@@ -53,6 +53,19 @@ aside .aside-top img{
 
 aside .aside-center ul li{
   padding: 5px 0;
+}
+
+#crea-playlist{
+  background-color: #717171;
+  color: black;
+  font-size: 40px;
+  font-weight: 900;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 5px;
 }
 
 aside .aside-down img {
@@ -116,6 +129,35 @@ footer .footer-center{
   width: 40%;
 }
 
+/* FOOTER CENTER */
+
+footer .footer-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer .footer-center i{
+  margin-right: 25px;
+}
+
+footer .footer-center .section-up{
+  padding-bottom: 10px;
+}
+
+footer .footer-center .bar{
+  background-color: #717171;
+  height: 3px;
+  width: 450px;
+}
+
+#border{
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 3px 6px;
+}
+
 /* FOOTER RIGHT */
 
 footer .footer-right{
@@ -128,6 +170,6 @@ footer .footer-right i{
 
 footer .footer-right .bar{
   background-color: #717171;
-  height: 4px;
+  height: 3px;
   width: 120px;
 }
