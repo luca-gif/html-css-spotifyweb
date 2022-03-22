@@ -2,7 +2,7 @@
 nav{
   width: 100%;
   background-color: rgb(0, 0, 0, .3);
-  height: 70px;
+  height: 80px;
   display: flex;
   justify-content: flex-end;
 }
@@ -10,8 +10,9 @@ nav{
 nav .btn{
   background-color: black;
   color: white;
+  height: 35px;
   border-radius: 20px;
-  padding: 8px 30px;
+  padding: 0 30px;
   font-size: 10px;
   text-transform: uppercase;
   margin: 15px 10px;
@@ -19,10 +20,21 @@ nav .btn{
 }
 
 aside{
-  width: 200px;
+  width: 300px;
   background-color: black;
+  color: #717171;
   display: flex;
   order: -1;
+}
+
+aside .aside-logo{
+  width: 100%;
+  padding: 15px;
+}
+
+aside .aside-logo img{
+  height: 40px;
+
 }
 
 main{
