@@ -90,6 +90,7 @@ footer{
 }
 
 footer .footer-left,.footer-right{
+  width: 300px;
   display: flex;
   padding: 0 10px;
   align-items: center;
@@ -100,6 +101,33 @@ footer .footer-left img{
   padding-right: 10px;;
 }
 
+footer .footer-left .footer-text{
+  padding-right: 30px;
+  
+}
+
+footer .footer-left i{
+  padding-right: 10px;
+  color: #717171;
+  
+}
+
 footer .footer-center{
-  width: 100%;
+  width: 40%;
+}
+
+/* FOOTER RIGHT */
+
+footer .footer-right{
+  justify-content: flex-end;
+}
+
+footer .footer-right i{
+  padding-right: 15px;
+}
+
+footer .footer-right .bar{
+  background-color: #717171;
+  height: 4px;
+  width: 120px;
 }

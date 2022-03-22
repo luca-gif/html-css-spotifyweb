@@ -17,6 +17,12 @@
   clear: both;
 }
 
+.overlay{
+  background-color: #c7c7c7;
+  width: 20%;
+  height: 100%;
+}
+
 .subtitle{
   font-size: 10px;
   color: #949597;
