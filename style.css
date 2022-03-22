@@ -90,7 +90,6 @@ footer{
 }
 
 footer .footer-left,.footer-right{
-  width: 300px;
   display: flex;
   padding: 0 10px;
   align-items: center;
@@ -98,9 +97,9 @@ footer .footer-left,.footer-right{
 
 footer .footer-left img{
   height: 50%;
-  padding-right: 5px;;
+  padding-right: 10px;;
 }
 
 footer .footer-center{
-  width: calc(100% - 600px);
+  width: 100%;
 }
