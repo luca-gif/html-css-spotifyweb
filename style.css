@@ -1,0 +1,37 @@
+
+nav{
+  width: 100%;
+  background-color: rgb(0, 0, 0, .3);
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav .btn{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin: 15px 10px;
+  cursor: pointer;
+}
+
+aside{
+  width: 200px;
+  background-color: black;
+  display: flex;
+  order: -1;
+}
+
+main{
+  height: calc(100vh - 70px);
+}
+
+/* FOOTER */
+
+footer{
+  height: 70px;
+  background-color: #282828;
+}
