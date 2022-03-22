@@ -20,7 +20,7 @@ nav .btn{
 }
 
 aside{
-  width: 300px;
+  width: 250px;
   padding: 20px;
   background-color: black;
   display: flex;
@@ -77,21 +77,30 @@ aside .download{
 }
 
 main{
-  height: calc(100vh - 70px);
+  height: calc(100vh - 90px);
 }
 
 /* FOOTER */
 
 footer{
-  height: 70px;
+  height: 90px;
   background-color: #282828;
   justify-content: space-between;
+  color: white;
 }
 
 footer .footer-left,.footer-right{
-  width: 20%;
+  width: 300px;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+}
+
+footer .footer-left img{
+  height: 50%;
+  padding-right: 5px;;
 }
 
 footer .footer-center{
-  width: calc(100% - 40px);
+  width: calc(100% - 600px);
 }
