@@ -21,20 +21,59 @@ nav .btn{
 
 aside{
   width: 300px;
+  padding: 20px;
   background-color: black;
-  color: #717171;
   display: flex;
   order: -1;
+  flex-direction: column;
 }
 
-aside .aside-logo{
-  width: 100%;
-  padding: 15px;
+aside a{
+  color: #717171;
+  font-size: 12px;
 }
 
 aside .aside-logo img{
   height: 40px;
+}
 
+aside .aside-top{
+  padding: 20px 0;
+}
+
+aside ul li:first-child a{
+  color: white;
+}
+
+aside .aside-top img{
+  height: 20px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+aside .aside-center ul li{
+  padding: 5px 0;
+}
+
+aside .aside-down img {
+  height: 15px;
+  margin-right: 5px;
+}
+
+aside h5{
+  color: white;
+  padding-top: 10px;
+}
+
+aside .aside-down h5 img{
+  background-color: #717171;
+  border-radius: 50%;
+}
+
+
+aside .download{
+  border-bottom: 1px solid #717171;
+  padding: 8px 0;
 }
 
 main{
@@ -46,4 +85,13 @@ main{
 footer{
   height: 70px;
   background-color: #282828;
+  justify-content: space-between;
+}
+
+footer .footer-left,.footer-right{
+  width: 20%;
+}
+
+footer .footer-center{
+  width: calc(100% - 40px);
 }

@@ -8,3 +8,10 @@ body{
   font-family: 'Montserrat', sans-serif;
   background-color: #141922;
 }
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
