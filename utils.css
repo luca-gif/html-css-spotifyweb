@@ -17,6 +17,10 @@
   clear: both;
 }
 
+.round{
+  border-radius: 50%;
+}
+
 .overlay{
   background-color: #c7c7c7;
   width: 20%;
