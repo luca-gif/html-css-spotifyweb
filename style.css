@@ -114,7 +114,6 @@ aside{
   padding: 20px;
   background-color: black;
   display: flex;
-  order: -1;
   flex-direction: column;
 }
 
