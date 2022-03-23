@@ -122,12 +122,13 @@ aside a{
   font-size: 12px;
 }
 
-aside .aside-logo img{
+aside #aside-logo img{
   height: 40px;
+  margin-bottom: 20px;
 }
 
 aside .aside-top{
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
 aside .aside-top ul li:first-child a{
@@ -161,6 +162,7 @@ aside .aside-center ul li{
   text-align: center;
   line-height: 30px;
   margin-right: 5px;
+  vertical-align: middle;
 }
 
 aside .aside-down img {
@@ -188,7 +190,6 @@ aside .download{
 
 footer{
   height: 90px;
-  width: 100%;
   background-color: #282828;
   justify-content: space-between;
   color: white;
@@ -203,7 +204,7 @@ footer .footer-left,.footer-right{
 
 footer .footer-left img{
   height: 50%;
-  padding-right: 10px;;
+  padding-right: 10px;
 }
 
 footer .footer-left .footer-text{
@@ -313,7 +314,7 @@ a:hover,
   aside{
     width: 50px;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
   }
 
   aside .w600-hide{
@@ -326,6 +327,10 @@ a:hover,
 
   aside .logo-small{
     display: inline-block;
+  }
+
+  aside #aside-logo img{
+    margin-bottom: 0;
   }
 
   #content .covers .playlist{
