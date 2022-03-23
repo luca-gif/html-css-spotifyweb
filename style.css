@@ -42,10 +42,12 @@ main{
 #content .menu ul{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #content .menu ul li{
   padding: 0 15px;
+  flex-shrink: 0;
 }
 
 #content .menu ul li a{
@@ -59,8 +61,8 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: center;
-  padding: 20px;
+  align-items: stretch;
+  margin: 10px 20px;  
 }
 
 #content .covers .covers-text{
@@ -77,9 +79,7 @@ main{
 
 #content .covers .playlist{
   width: calc(100% / 6);
-  height: 300px;
   padding: 10px;
-
 }
 
 #content .covers .playlist .playlist-img{
@@ -103,6 +103,11 @@ main{
 
 
 /* CREO COLONNA SX */
+
+.logo-small{
+  display: none;
+  width: 30px;
+}
 
 aside{
   width: 250px;
@@ -210,7 +215,6 @@ footer .footer-left .footer-text{
 footer .footer-left i{
   padding-right: 10px;
   color: #717171;
-  
 }
 
 footer .footer-center{
@@ -274,4 +278,58 @@ footer .footer-right .bar{
   background-color: #717171;
   height: 3px;
   width: 120px;
+}
+
+/* HOVER WHITE*/
+
+a:hover,
+.footer-left i:hover,
+#content .menu a:hover {
+  color: #fff;
+}
+
+
+/* MEDIA QUERY 864px */
+
+@media screen and (max-width: 864px) {
+
+  #content .covers .playlist{
+    width: calc(100% / 4);
+  }
+}
+
+/* MEDIA QUERY 768px */
+
+@media screen and (max-width: 768px) {
+
+  #content .covers .playlist{
+    width: calc(100% / 2);
+  }
+}
+
+/* MEDIA QUERY 600px */
+
+@media screen and (max-width:600px) {
+  
+  aside{
+    width: 50px;
+    align-items: center;
+    justify-content: space-between
+  }
+
+  aside .w600-hide{
+    display: none;
+  }
+
+  aside .download{
+    border: 0;
+  }
+
+  aside .logo-small{
+    display: inline-block;
+  }
+
+  #content .covers .playlist{
+    width: calc(100% / 2);
+  }
 }

@@ -17,6 +17,10 @@
   clear: both;
 }
 
+.white:hover{
+  color: white;
+}
+
 .round{
   border-radius: 50%;
 }
