@@ -109,6 +109,8 @@ main{
   width: 30px;
 }
 
+/* ASIDE */
+
 aside{
   width: 250px;
   padding: 20px;
@@ -196,7 +198,7 @@ footer{
 }
 
 footer .footer-left,.footer-right{
-  width: 300px;
+  width: 250px;
   display: flex;
   padding: 0 10px;
   align-items: center;
@@ -231,7 +233,7 @@ footer .footer-center{
 }
 
 footer .footer-center i{
-  margin-right: 25px;
+  margin: 0 15px;
 }
 
 footer .footer-center .section-up{
@@ -245,7 +247,7 @@ footer .footer-center .bar{
 }
 
 #border{
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 50%;
   padding: 3px 6px;
 }
@@ -280,12 +282,17 @@ footer .footer-right .bar{
   width: 120px;
 }
 
-/* HOVER WHITE*/
+/* HOVERS*/
 
 a:hover,
 .footer-left i:hover,
-#content .menu a:hover {
+#content .menu a:hover{
   color: #fff;
+}
+
+.footer-left .subtitle:hover{
+  color: #fff;
+  text-decoration: underline;
 }
 
 
@@ -296,6 +303,18 @@ a:hover,
   #content .covers .playlist{
     width: calc(100% / 4);
   }
+
+  footer .footer-center .bar{
+    background-color: #717171;
+    height: 3px;
+    width: 250px;
+  }
+
+  footer .footer-right .bar{
+    background-color: #717171;
+    height: 3px;
+    width: 80px;
+  }
 }
 
 /* MEDIA QUERY 768px */
@@ -304,6 +323,28 @@ a:hover,
 
   #content .covers .playlist{
     width: calc(100% / 2);
+  }
+
+  footer .footer-center .bar{
+    background-color: #717171;
+    height: 3px;
+    width: 180px;
+  }
+
+  footer .footer-center i{
+    margin: 0 8px;
+  }
+
+  footer .section-down .time-dx, .time-sx{
+    padding: 0 10px;
+  }
+
+  footer .footer-left .footer-text {
+    padding-right: 10px;
+  }
+
+  footer .footer-right i {
+    padding-right: 8px;
   }
 }
 
@@ -315,6 +356,7 @@ a:hover,
     width: 50px;
     align-items: center;
     justify-content: space-between;
+    padding: 0 20px;
   }
 
   aside .w600-hide{
@@ -335,5 +377,20 @@ a:hover,
 
   #content .covers .playlist{
     width: calc(100% / 2);
+  } 
+
+  footer .footer-left, .footer-right {
+    width: 150px;
+    padding-right: 10px;
+  }
+
+  footer .footer-center .bar{
+    background-color: #717171;
+    height: 3px;
+    width: 100px;
+  }
+
+  footer i{
+    font-size: 10px;
   }
 }
