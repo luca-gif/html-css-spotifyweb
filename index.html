@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="utils.css">
   <link rel="stylesheet" href="global.css">
-  <title> Spotify</title>
+  <link rel="icon" href="img/favicon.ico" />
+  <title>Spotify</title>
 </head>
 
 <body>
@@ -47,15 +48,26 @@
 
       <!-- 2 PARTE -->
 
-      <div class="h100 aside-center w600-hide">
+      <div class="w600-hide">
 
         <h5>PLAYLIST</h5>
 
-        <ul>
-          <li><a href="#">
-              <div id="crea-playlist">+</div> Crea Playlist
-            </a></li>
+        <a href="#">
+          <div id="crea-playlist">+</div> Crea Playlist
+        </a>
 
+      </div>
+
+      <div class="h100 aside-center w600-hide">
+
+        <ul>
+
+          <li><a href="#">Nome Playlist </a></li>
+          <li><a href="#">Nome Playlist </a></li>
+          <li><a href="#">Nome Playlist </a></li>
+          <li><a href="#">Nome Playlist </a></li>
+          <li><a href="#">Nome Playlist </a></li>
+          <li><a href="#">Nome Playlist </a></li>
           <li><a href="#">Nome Playlist </a></li>
           <li><a href="#">Nome Playlist </a></li>
           <li><a href="#">Nome Playlist </a></li>
@@ -66,6 +78,7 @@
         </ul>
 
       </div>
+
 
       <!-- 3 PARTE -->
 
@@ -90,7 +103,11 @@
 
       <div class="menu">
         <ul>
-          <li><a href="#">In evidenza</a></li>
+
+          <li><a href="#">In evidenza</a>
+            <div class="underline"></div>
+          </li>
+
           <li><a href="#">Podcast</a></li>
           <li><a href="#">Classifiche</a></li>
           <li><a href="#">Generi e mood</a></li>
@@ -285,7 +302,7 @@
         <div class="playlist">
 
           <a href="#">
-            <div class="playlist-img">
+            <div class="playlist-img playlist-round">
 
               <img class="round" src="img/youg.jpeg" alt="Lana del Rey">
 
@@ -304,7 +321,7 @@
         <div class="playlist">
 
           <a href="#">
-            <div class="playlist-img">
+            <div class="playlist-img playlist-round">
 
               <img class="round" src="img/einaudi.jpeg" alt="Ludovico Einaudi">
 
@@ -357,7 +374,7 @@
 
         <a href="#"><i class="fa-solid fa-shuffle"></i></a>
         <a href="#"><i class="fa-solid fa-backward-step"></i></a>
-        <a href="#"><i id="border" class="fa-solid fa-play"></i></a>
+        <a href="#"><i id="play" class="fa-regular fa-circle-play"></i></a>
         <a href="#"><i class="fa-solid fa-forward-step"></i></a>
         <a href="#"><i class="fa-solid fa-rotate-right"></i></a>
 
@@ -369,7 +386,7 @@
 
         <a href="#">
           <div class="bar">
-            <div class="overlay"></div>
+            <div class="overlay-bar"></div>
           </div>
         </a>
 
@@ -389,7 +406,7 @@
 
       <a href="#">
         <div class="bar">
-          <div class="overlay"></div>
+          <div class="overlay-bar"></div>
         </div>
       </a>
 
