@@ -244,6 +244,9 @@ footer .footer-center{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 footer .footer-center i{
@@ -258,6 +261,15 @@ footer .footer-center .bar{
   background-color: #717171;
   height: 3px;
   width: 450px;
+}
+
+/* CREO PUNTINO CURSORE BARRA VOLUME */
+
+footer .footer-center .bar .dot{
+  position: absolute;
+  top: 56px;
+  left: 150px;
+  display: none;
 }
 
 .overlay-bar{
@@ -288,6 +300,7 @@ footer .section-down .time-dx,.time-sx{
 
 footer .footer-right{
   justify-content: flex-end;
+  position: relative;
 }
 
 footer .footer-right i{
@@ -298,6 +311,14 @@ footer .footer-right .bar{
   background-color: #717171;
   height: 3px;
   width: 120px;
+}
+
+footer .footer-right .bar .dot{
+  position: absolute;
+  top: 39px;
+  left: 140px;
+  font-size: 12px;
+  display: none;
 }
 
 /* HOVERS*/
@@ -313,9 +334,10 @@ a:hover,
   text-decoration: underline;
 }
 
-.overlay-bar:hover{
+.bar:hover .overlay-bar{
   background-color: #80bb19;
 }
+
 
 /* HOVER PLAYLIST */
 
@@ -350,6 +372,14 @@ nav button:active{
 
 footer .footer-center #play:active{
   transform: scale(115%);
+}
+
+footer .footer-center .bar:hover .dot{
+  display: block;
+}
+
+footer .footer-right .bar:hover .dot{
+  display: block;
 }
 
 /* MEDIA QUERY 864px */
