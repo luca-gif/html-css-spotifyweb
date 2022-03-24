@@ -442,6 +442,10 @@ footer .footer-right .bar:hover .dot{
   footer .footer-right i {
     padding-right: 8px;
   }
+
+  footer{
+    overflow:hidden;
+  }
 }
 
 /* MEDIA QUERY 600px */
